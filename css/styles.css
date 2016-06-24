@@ -1,0 +1,94 @@
+.nav-center {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.nav-center>ul {
+  flex-grow: 1;
+}
+
+.nav-pills>li>a:hover {
+  color: black;
+  background-color: white;
+  font-size: 36px;
+}
+.nav-pills>li>a {
+    border-radius: 0px;
+    color: black;
+}
+.nav-pills>li.active>a {
+   background-color: black;
+   font-size: 36px;
+}
+
+.nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: black;
+}
+.nav-pills>li>a:focus, .nav-pills>li>a:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.nav>li>a {
+    font-size: 36px;
+}
+
+#home h1 {
+  font-family: 'Bungee', monospace;
+  font-size: 10vw;
+  color: black;
+}
+#main-nav {
+  font-family: 'Oswald', sans-serif;
+}
+#about, #portfolio, #contact {
+  /*height: 700px;*/
+  display: flex;
+  align-items: center;
+}
+
+#contact {
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+p {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  /*text-align: justify;*/
+  text-justify: inter-word;
+}
+img {
+  max-width: 100%;
+}
+#footer p {
+  font-size: 18px;
+  text-align: center;
+}
+#footer, #portfolio {
+  justify-content: center;
+  text-align: center;
+}
+
+#about h1, #portfolio h1, #contact h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  color: black;
+  text-align: left;
+}
+.btn {
+  background-color: black;
+  padding: 30px;
+  border-width: 0px;
+}
+.btn:hover {
+  background-color: #437;
+}
